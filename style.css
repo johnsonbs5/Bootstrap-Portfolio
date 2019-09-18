@@ -259,6 +259,7 @@ body {
     line-height: 100px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+    text-align: center;
     width: calc(100% - 60px);
     margin: auto;
 }
