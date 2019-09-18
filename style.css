@@ -16,15 +16,14 @@ body {
 
 }
 
-
-.mainCard__container {
-    margin: 38px auto 92px;
-    padding: 0 30px;
-    background-color: white;
-    border: 1px solid #ddd;
-    display: inline-block;
-    width: 85%;
-}
+.mainCard__header {
+        height: 100px;
+        line-height: 100px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #4aaaa5;
+        width: calc(100% - 60px);
+        margin: auto;
+    }
 
 
 
@@ -36,8 +35,8 @@ h1 {
 
 
 .mainCard__header__hr {
-    padding: 0;
-    border: 0;
+    padding: 20;
+    border: 20;
     border-top: 2px solid #ffffff;
     width: calc(100% - 60px);
     margin: auto;
@@ -46,8 +45,10 @@ h1 {
 
 .about__image {
     float: left;
-    height: 150px;
+    height: 250px;
     padding: 0 26px 0 0;
+    border: #4aaaa5;
+
 }
 /*---Homework specs seen below for font color---*/
 
@@ -73,11 +74,6 @@ a.inline__textLink:hover {
 
 a {
     color: #666;
-}
-
-.mainCard__header {
-    margin: 90px;
-
 }
 
 /*------------Here is info for my Portfolio file------------*/
